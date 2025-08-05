@@ -73,7 +73,7 @@ results[0].show()        # Display the image with detections
 results[0].save()        # Save the result in the same folder
 ```
 
-- The output image (with bounding boxes) will be saved in the same folder as `result_bus.png`.
+- The output image (with bounding boxes) will be saved in the same folder as `result_bus.jpg`.
 
 ---
 
