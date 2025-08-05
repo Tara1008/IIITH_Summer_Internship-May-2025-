@@ -13,7 +13,7 @@ project/
 │   ├── frame_0001.png
 │   ├── frame_0002.png
 │   └── ...
-├── segment.py               # Script for image segmentation on frames
+├── segmentation.py               # Script for image segmentation on frames
 ├── rebuilt.py               # Script to rebuild the video from processed frames
 └── output/                  # Final output video saved here
 ```
@@ -50,7 +50,7 @@ ffmpeg -i Shanghai.mp4 -vf "select=not(mod(n\,10))" -vsync vfr frames/frame_%04d
 Run the segmentation script:
 
 ```bash
-python segment.py
+python segmentation.py
 ```
 
 - This script processes the images in `frames/` and applies bounding box segmentation.
