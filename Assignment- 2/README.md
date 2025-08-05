@@ -78,10 +78,12 @@ python rebuilt.py
 
 ---
 
-## 📝 Notes
+## 📝 Note
 
 - Ensure FFmpeg is installed and available in your system’s PATH.
 - Make sure required Python packages (e.g., `opencv-python`) are installed before running the scripts.
+- Here the uploaded input and output videos are not the original size (since limit of Github file is 25MB).
 
 ---
+
 
