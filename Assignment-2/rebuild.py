@@ -1,8 +1,8 @@
 import cv2
 import os
 
-image_folder = "D:\IIITH_internship\Assignment_2\processed"
-video_name = "D:\IIITH_internship\Assignment_2\output_video.mp4"
+image_folder = "/path/to/your/frames/directory"
+video_name = "/path/to/your/output/video"
 fps = 15  # Set to match original video's FPS
 
 # Get sorted list of images

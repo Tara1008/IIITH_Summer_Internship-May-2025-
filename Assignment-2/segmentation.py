@@ -6,7 +6,7 @@ import os
 model = YOLO("yolov8n-seg.pt")
 
 # Input/output
-frames_dir = "D:\\IIITH_internship\\Assignment_2\\frames"            # folder of extracted video frames
+frames_dir = "/path/to/frames/directory"            # folder of extracted video frames
 processed_dir = "processed"      # folder to save overlayed frames
 os.makedirs(processed_dir, exist_ok=True)
 
